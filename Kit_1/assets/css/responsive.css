@@ -1,0 +1,36 @@
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .d2c_testimonial_wrapper {
+        height: auto;
+        padding: 50px 0px;
+    }
+    .d2c_testimonial_wrapper .d2c_card_wrapper {
+        padding: 35px 30px;
+    }
+    .d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body .d2c_card_text {
+        margin-bottom: 5px;
+    }
+    .d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_content {
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .d2c_testimonial_wrapper {
+        height: auto;
+        padding: 50px 0px;
+    }
+    .d2c_testimonial_wrapper .d2c_card_wrapper {
+        padding: 35px 41px;
+    }
+    .d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body .d2c_card_text {
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .d2c_testimonial_wrapper .d2c_card_wrapper {
+        padding: 35px 30px;
+    }
+    .d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body .d2c_card_text {
+        margin-bottom: 5px;
+    }
+}

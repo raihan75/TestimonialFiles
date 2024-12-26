@@ -1,0 +1,65 @@
+
+:root {
+    /* color */
+    --primary_color: #FFFFFF;
+    --secondary_color: #323232;
+    --color_one: #000000;
+    --color_two: #CAD1E1;
+    /* font */
+    --primary_font-family: 'Roboto', sans-serif;
+    --secondary_font-family: 'Rubik', sans-serif;
+}
+.d2c_testimonial_wrapper {
+    height: 100vh;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+}
+.d2c_testimonial_wrapper .d2c_row_padding {
+    padding: 0px 40px;
+}
+.d2c_testimonial_wrapper .d2c_row_padding .d2c_col_padding {
+    padding: 0px 10px;
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper {
+    background: var(--secondary_color);
+    border-radius: 10px;
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper .d2c_img_wrapper img {
+    border-radius: 7px;
+    height: 250px;
+    object-fit: cover;
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body {
+    padding: 25px 25px;
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body .d2c_card_title {
+    font-family: var(--secondary_font-family);
+    font-weight: 500;
+    font-size: 23px;
+    color: var(--primary_color);
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body span {
+    Width: 18.33px;
+    Height: 17.42px;
+    color: var(--color_two);
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body span:last-child  {
+    color: var(--color_one);
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body .d2c_card_text {
+    font-family: var(--primary_font-family);
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--primary_color);
+}
+.d2c_testimonial_wrapper .d2c_card_wrapper .d2c_card_body .d2c_card_content {
+    text-align: justify;
+    font-family: var(--secondary_font-family);
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--primary_color);
+}
+.owl-carousel .owl-stage-outer {
+    padding: 30px 0px;
+}
